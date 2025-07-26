@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@theme {
+  --color-primary: #007aff;
+  --color-secondary: #1e90ff;
+}
+
+@plugin "@iconify/tailwind4" {
+  prefix: "iconify";
+  scale: 1.5;
+}
